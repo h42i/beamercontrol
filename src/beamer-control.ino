@@ -12,10 +12,10 @@ const byte txPin = 15;
 // set up a new serial object
 SoftwareSerial mySerial (rxPin, txPin);
 
-#define OTA_PASSWORD "bugsbunny"
+#define OTA_PASSWORD ""
 
 const String ssid     = "HaSi-Kein-Internet-Legacy";
-const String password = "bugsbunny";
+const String password = "";
 const String broker   = "mqtt.hasi";
 int port              = 1883;
 
